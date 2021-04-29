@@ -65,10 +65,12 @@ namespace TestPlayground
 			//if given two numbers x, y, return an array of y length that evenly separates x into each space.
 			//If it’s not an even separation, make the last part of the array have the larger number
 
-			int x1= 5;
-			int y1 = 10;
-			int[] arr1 = { };
-			int xdiv = x1 / y.length;
+			//int x1= 5;
+			//int y1 = 10;
+			//int[] arr1 = { };
+			//int xdiv = x1 / y.length;
+
+			const Number= Math.Floor(x1+1/y)
 
 		}
 		static void Fibonacci_Iterative(int len)
