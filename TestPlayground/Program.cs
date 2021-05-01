@@ -35,7 +35,7 @@ namespace TestPlayground
 
 			string input = "confirme";
 			string op = "";
-			if (input.Length > 0 && input.Length % 2 == 0)
+			if (input.Length > 0 && input.Length % 2 == 0)					//study this longer
 			{
 				op = input.Substring((input.Length - 1) / 2, 2);
 				Console.WriteLine(op);
@@ -44,7 +44,7 @@ namespace TestPlayground
 
 			//fizzbuzz
 			#region
-			for (int i = 1; i <= 100; i++)
+			for (int i = 1; i <= 100; i++)							//for loop with if conditionals
 			{
 			if (i % 3 == 0 && i % 5 == 0)
 				{Console.WriteLine("FizzBuzz");}
