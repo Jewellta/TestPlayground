@@ -87,7 +87,12 @@ namespace TestPlayground
 			}
 		}
 
-
+		#region
+		//inheritance- can define a new class by using the differences of the old class. 
+		//encapsulation- controls access to the class from outside classes/objects
+		//composition- can pick and choose what to inheirent to a class
+		//polymorphism- runtime behaves differently than compile time
+		#endregion
 
 	}
 }
