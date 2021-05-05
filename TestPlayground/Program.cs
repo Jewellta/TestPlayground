@@ -70,9 +70,19 @@ namespace TestPlayground
 			//int[] arr1 = { };
 			//int xdiv = x1 / y.length;
 
-			const Number= Math.Floor(x1+1/y)
+		//	const Number= Math.Floor(x1+1/y)
 
-		}
+		//}
+
+		var data = [];
+		var length = 5; // user defined length
+
+		for(var i = 0; i<length; i++) {
+    data.push(createSomeObject());
+}
+
+	int[] xyarr = {};
+
 		static void Fibonacci_Iterative(int len)
 		{
 			int a = 0, b = 1, c = 0;
@@ -94,5 +104,32 @@ namespace TestPlayground
 		//polymorphism- runtime behaves differently than compile time
 		#endregion
 
+	}
+}
+	public class Challenge
+	{
+		public static int[] SplitInteger(int num, int parts)
+		{
+    out = new[];
+			var modi = num % parts;
+			if (modi == 0)
+			{
+      out = num / parts;
+				cw = Array(parts).fill(num);
+			}
+			else
+			{
+				num = (parts - modi) / parts;
+				cw = Array(parts).fill(num);
+				for (idx = 0; idx < modi; idx++)
+				{
+					cw[idx] = cw[idx] + 1;
+				}
+				cw.reverse()
+	   
+	  }
+			return cw;
+		}
+		console.Writeline(cw)
 	}
 }
